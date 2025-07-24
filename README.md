@@ -8,4 +8,6 @@
 
 ### 3. Autoaim_deployment
 基于ROS实现的装甲板自动瞄准击打系统部署，主要技术栈为ROS、C++、OpenCV，实现了自动识别装甲板、计算距离、筛选击打目标等功能
-原项目链接如下：https://github.com/chenjunnn/rm_vision
+仿真调试过程则使用了Foxglove Studio进行仿真，通过结合实车和仿真环境数据回传，对自瞄系统参数进行击打实验修正
+基于该项目的部署，个人总结撰写有相关部署手册（以便在战队实验室进行传承和更新）并进行开源分享，以便后续新一届队员进行传承和更新，手册内容见该仓库下`QIQI视觉避坑手册.pdf`
+自瞄系统原项目链接：https://github.com/chenjunnn/rm_vision
